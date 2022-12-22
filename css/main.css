@@ -1,0 +1,34 @@
+/*Root*/
+QWidget#centralwidget{
+	background-color: rgb(201, 255, 208);
+}
+/**/
+
+/*Buttons*/
+QPushButton {
+	/*border-radius: 20px;*/
+	border: 1px solid rgba(0, 0, 0, 0.6);
+	background-color: rgb(201, 255, 208);
+	border-radius: 20px;
+}
+QPushButton::hover {
+	background-color: rgba(219, 194, 207, 0.8);
+}
+QPushButton#repeat_button {
+	font-size: 17px;
+}
+/**/
+
+/*LW, i*/
+QListWidget::item{ 
+	color: rgb(4, 4, 5);
+	margin-top: 0px;
+	border: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+QListWidget::item::hover{ 
+	border: 2px solid rgba(0, 0, 0, 0.2);	 
+}
+QListWidget{
+	background-color: rgb(203, 224, 228);
+}
+/**/
